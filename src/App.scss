@@ -1,0 +1,145 @@
+@font-face {
+  font-family: space_age;
+  src: url(./assets/fonts/space_age.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(1, 1, 27);
+  font-family: space_age;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+
+}
+
+.select-con {
+  width: 20rem;
+  height: 2rem;
+  text-align: center;
+  border: 2px solid black;
+  -webkit-box-shadow: 1px 2px 15px 5px #ffffff50;
+  font-size: 1rem;
+}
+
+.option {
+  font-family: space_age;
+}
+
+.canvas-container {
+  height: 100vh;
+  width: 180rem;
+}
+
+.header-con {
+  position: absolute;
+  width: 100%;
+  top: 40%;
+  left: 0;
+  
+}
+
+.dropDown-con {
+  position: absolute;
+  width: 100%;
+  left: 8%;
+  z-index: 1;
+
+ 
+}
+
+.content-con {
+    
+  position: absolute;
+  width: 10%;
+  top: 50%;
+  left: 8%;
+  z-index: 1;
+ 
+
+  h1 {
+    font-size: 2.5rem;
+    color: #fdfdfd;
+  }
+}
+
+.msg-con {
+  width: 30rem;
+  
+}
+
+.info-con {
+  width: 50%;
+  text-align: center;
+  color: white;
+  margin: auto;
+ 
+  h2 {
+    color: #c34a36;
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .select-con {
+    width: 10rem;
+    height: 2rem;
+    text-align: center;
+    border: 2px solid black;
+    
+    font-size: 0.7rem;
+  }
+
+  .canvas-container {
+    height: 100vh;
+    width: 100%;
+  }
+
+  .header-con {
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    left: 21%;
+    background-color: rgba(30, 29, 29, 0.93);
+  }
+
+  .dropDown-con {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+  }
+
+  .content-con {
+    position: absolute;
+    width: 100%;
+    top: 45%;
+    left: 22%;
+    z-index: 1;
+
+    h1 {
+      font-size: 1.5rem;
+      color: white;
+    }
+  }
+
+  .msg-con {
+    width: 10rem;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 0.7rem;
+    display: none;
+  }
+}

@@ -7,7 +7,6 @@ import {Canvas} from '@react-three/fiber'
 import InfoMsg from './components/InfoMsg'
 
 
-
 import {Earth} from './components/Earth/Earth'
 
 

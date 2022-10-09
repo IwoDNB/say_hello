@@ -92,18 +92,25 @@ html {
 }
 
 @media only screen and (max-width: 420px) {
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
   .select-con {
     width: 10rem;
     height: 2rem;
     text-align: center;
     border: 2px solid black;
     
-    font-size: 0.7rem;
+    font-size: 0.5rem;
   }
 
   .canvas-container {
     height: 100vh;
-    width: 100%;
+    min-width: 420px;
+    max-width: 420px;
   }
 
   .header-con {
